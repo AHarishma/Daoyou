@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.harishma.Daoyou.Start">
+
+    <TextView
+        android:id="@+id/Main2Activity"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:text="INDIA"
+        android:background="@drawable/flagin"
+        android:gravity="center_horizontal"
+        android:textSize="60sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chinaflag"
+        android:gravity="center_horizontal"
+        android:text="CHINA"
+        android:textColor="#FFEBEE"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+</LinearLayout>
